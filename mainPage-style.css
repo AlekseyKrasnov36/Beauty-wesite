@@ -1,0 +1,341 @@
+@import url("https://fonts.googleapis.com/css2?family=Cormorant+Garamond&display=swap");
+body {
+  background-color: #111111;
+  background-image: url("header-photo.svg");
+  color: white;
+  background-repeat: no-repeat;
+  font-family: 'Cormorant Garamond', serif;
+  overflow-x: hidden;
+}
+
+header {
+  width: 80vw;
+  margin: 0 auto;
+  display: flex;
+  position: relative;
+  vertical-align: bottom;
+  font-style: 18px;
+  font-weight: 700;
+  padding-bottom: 30px;
+  border-bottom: 1px solid white;
+}
+
+header .header__img {
+  padding-top: 20px;
+}
+
+header a {
+  text-decoration: none;
+  color: white;
+}
+
+header nav {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+header ul {
+  display: flex;
+  justify-content: space-between;
+  gap: 5.208vw;
+  list-style: none;
+  font-size: 18px;
+  font-weight: 500;
+}
+
+header div {
+  display: flex;
+  gap: 80px;
+}
+
+header div li {
+  text-decoration: none;
+  color: white;
+  height: 30px;
+  cursor: pointer;
+}
+
+header div li:hover {
+  color: #cdaa7d;
+  text-decoration: underline #cdaa7d;
+  text-underline-offset: 10px;
+}
+
+header div a:hover {
+  color: #cdaa7d;
+}
+
+.contact-menu {
+  opacity: 0;
+  visibility: hidden;
+  position: absolute;
+  display: block;
+}
+
+.contact-menu img {
+  padding: 20px;
+}
+
+.contact-menu .text {
+  width: 15.625vw;
+  margin: 0 auto;
+  margin-top: 100px;
+}
+
+.contact-menu .title {
+  font-size: 30px;
+  font-weight: 800;
+  padding-bottom: 50px;
+}
+
+.contact-menu .number {
+  width: 15.625vw;
+  margin: 0 auto;
+  font-size: 16px;
+  margin-top: 10px;
+}
+
+.contact-menu .graph {
+  width: 300px;
+  margin: 0 auto;
+}
+
+.contact-menu-Active {
+  opacity: 1;
+  visibility: visible;
+  width: 24.740vw;
+  height: 106.027vh;
+  position: absolute;
+  right: 0;
+  top: 0;
+  background-color: #111111;
+  font-size: 18px;
+  display: block;
+}
+
+.contact-menu-Active p:nth-child(1) {
+  width: 15.625vw;
+  margin: 0 auto;
+  margin-top: 100px;
+}
+
+.contact-menu-Active .title {
+  font-size: 30px;
+  font-weight: 800;
+  padding-bottom: 50px;
+}
+
+.contact-menu-Active .number {
+  width: 15.625vw;
+  margin: 0 auto;
+  font-size: 18px;
+  margin-top: 10px;
+}
+
+.contact-menu-Active .graph {
+  width: 15.625vw;
+  margin: 0 auto;
+}
+
+.logo {
+  width: 80vw;
+  font-size: 72px;
+  font-weight: 700;
+  line-height: 86px;
+  width: 31.250vw;
+  text-align: center;
+  margin: 0 auto;
+  margin-top: 260px;
+}
+
+main {
+  width: 80vw;
+  margin: auto;
+  margin-top: 440px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+main div {
+  width: 41.667vw;
+  font-size: 27px;
+}
+
+main div img {
+  width: 90px;
+  display: flex;
+  margin: 0 auto;
+}
+
+main div p {
+  text-align: center;
+  line-height: 37px;
+}
+
+main .main__text {
+  text-align: center;
+}
+
+section {
+  display: flex;
+  width: 100vw;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: repeat(3, 20.833vw);
+  grid-template-rows: repeat(2, 40.858vh);
+  font-size: 30px;
+  gap: 40px;
+  justify-content: center;
+}
+
+section img {
+  width: 20.833vw;
+  z-index: 2;
+  position: absolute;
+}
+
+section div {
+  margin-top: 50px;
+}
+
+section .border {
+  border: 1px solid #cdaa7d;
+  position: relative;
+  width: 20.833vw;
+  height: 27.833vh;
+  bottom: 110px;
+  left: 20px;
+  z-index: 1;
+}
+
+section span {
+  position: relative;
+  top: 305px;
+}
+
+figure {
+  width: 80vw;
+  margin: 0 auto;
+  margin-top: 160px;
+}
+
+figure ul {
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+}
+
+figure ul li {
+  opacity: 0.4;
+}
+
+figure ul li:hover {
+  opacity: 1;
+}
+
+.slider {
+  width: 80vw;
+  margin: 0 auto;
+  margin-top: 180px;
+}
+
+.slider .slider-title {
+  font-size: 48px;
+  text-align: center;
+}
+
+.slider ul {
+  margin-top: 80px;
+  list-style: none;
+  display: flex;
+  gap: 50px;
+  justify-content: center;
+}
+
+.slider ul li {
+  font-size: 24px;
+}
+
+.slider ul li:hover {
+  color: #cdaa7d;
+  border-bottom: 1px solid #cdaa7d;
+}
+
+.slider .grid-block img {
+  width: 21.667vw;
+  height: 42.492vh;
+}
+
+.slider .grid-slide, .slider .grid-slide_two, .slider .grid-slide_three, .slider .grid-slide_four {
+  padding-top: 150px;
+  justify-content: center;
+  display: grid;
+  gap: 30px;
+  grid-template-columns: repeat(3, 20.833vw);
+  grid-template-rows: repeat(3, 40.858vh);
+  position: absolute;
+  left: 0;
+  right: 0;
+  transition: all 1s;
+}
+
+.opacity {
+  opacity: 0;
+}
+
+.opacityNone {
+  opacity: 1;
+  transition: all 2s;
+}
+
+.divClass {
+  color: #cdaa7d;
+  border-bottom: 1px solid #cdaa7d;
+}
+
+footer {
+  width: 80vw;
+  margin: 0 auto;
+  margin-top: 1600px;
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 80px;
+  border-top: 1px solid white;
+  border-bottom: 1px solid white;
+}
+
+footer ul {
+  list-style: none;
+}
+
+footer .logo-footer {
+  width: 80px;
+}
+
+footer li {
+  margin-top: 20px;
+  font-size: 18px;
+}
+
+footer li:nth-child(1) {
+  font-size: 42px;
+  font-weight: 700;
+}
+
+.Copyright {
+  margin-top: 30px;
+  display: flex;
+  justify-content: center;
+}
+
+@media screen and (max-width: 1366px) {
+  section .border {
+    height: 220px;
+  }
+  section .media {
+    position: relative;
+    bottom: 145px;
+  }
+}
