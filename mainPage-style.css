@@ -1,7 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Cormorant+Garamond&display=swap");
 body {
   background-color: #111111;
-  background-image: url("header-photo.svg");
+  background-image: url("img/header-photo.svg");
   color: white;
   background-repeat: no-repeat;
   font-family: 'Cormorant Garamond', serif;
